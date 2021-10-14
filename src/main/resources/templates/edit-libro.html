@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="../static/cssLibro.css" />
+
+    <title>Editar Libro</title>
+</head>
+
+<body>
+    <h3>Editar Libro</h3>
+
+    <div>
+        <form th:action="@{/libro/editar/__${id}__}" method=POST>
+            <label for="titulo">Ingresar Nuevo Título</label>
+            <input type="text" id="titulo" name="titulo" placeholder="Título..."/>
+            <br>
+             <label for="isbn">Ingresar Nuevo ISBN</label>
+            <input type="text" id="isbn" name="isbn" placeholder="ISBN..."/>
+             <br>
+             <label for="anio">Ingresar Año</label>
+            <input type="number" id="anio" name="anio" placeholder="Año.."/>
+            <br>
+            <label for="ejemplares">Ingresar Cantidad de Ejemplares</label>
+            <input type="number" id="ejemplares" name="ejemplares" placeholder="Ejemplares.."/>
+            <br>
+            <label for="autor">Ingresar Autor</label>
+            <input type="text" id="autor" name="autor" placeholder="Autor.."/>
+            <br>
+            <label for="editorial">Ingresar Editorial</label>
+            <input type="text" id="editorial" name="editorial" placeholder="Editorial..."/>
+            <br>
+                                
+			<button type="submit">Guardar</button>
+			<button type="submit">Volver</button>
+        </form>
+    </div>
+</body>
+
+</html>

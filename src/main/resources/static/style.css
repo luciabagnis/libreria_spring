@@ -1,0 +1,100 @@
+body {
+	background: rgb(227, 227, 227);
+	background: linear-gradient(0deg, rgba(227, 227, 227, 1) 0%,
+		rgba(255, 255, 255, 1) 65%);
+}
+
+.contenedor {
+	height: 100vh;
+	position: relative;
+	display: flex;
+	position: relative;
+}
+
+.centrar {
+	max-width: 700px;
+	height: 70vh;
+	width: 100%;
+	background: #FDFDFD;
+	box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+	border-radius: 50px;
+	padding: 2em;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.titulo {
+	max-width: 700px;
+	height: 10vh;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: auto;
+	padding-top: 40px;
+	font-family: 'Noto Sans Mono', monospace;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.libro {
+	margin: 30px;
+	background-color: #F2F2F2;
+	border-radius: 10px;
+	padding: 5px;
+	padding-left: 20px;
+	
+}
+
+.autor {
+	margin: 30px;
+	background-color:#F2F2F2;
+	border-radius: 10px;
+	padding: 5px;
+	padding-left: 20px;
+	
+}
+
+.editorial {
+	margin: 30px;
+	background-color: #F2F2F2;
+	border-radius: 10px;
+	padding: 5px;
+	padding-left: 20px;
+	
+}
+
+p {
+	display: inline;
+}
+
+hr {
+	border: 2px solid #000000;
+	border-radius: 2px; position : absolute;
+	right: 0;
+	left: 0;
+	margin: auto;
+	display: flex;
+	margin-top: 35px;
+	position: absolute;
+}
+
+h2 {
+	font-family: 'Noto Sans Mono', monospace;
+
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+i{
+color: #272727;
+}
+
